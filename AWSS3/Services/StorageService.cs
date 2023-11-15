@@ -40,7 +40,7 @@ namespace AWSS3.Services
                 await transferUtility.UploadAsync(uploadRequest);
 
                 resposne.StatusCode = 200;
-                resposne.Message = $"{s3Object.Name} has been uploaded successfully";
+                resposne.Message = $"file: {s3Object.Name} has been uploaded successfully";
             }
             catch (AmazonS3Exception ex) 
             {
