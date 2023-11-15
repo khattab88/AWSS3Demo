@@ -11,8 +11,9 @@ Upload files to AWS S3 on .Net 6 Web API
 6. create s3 bucket with unique name (ex: demo-aws-s3-test)
 7. (Optional) test using AWS CLI:
  
-=> list all s3 buckets `aws s3 ls`,
-=> list all files in bucket `aws s3api list-objects --bucket BUCKET_NAME`
+   => list all s3 buckets `aws s3 ls`
+
+   => list all files in bucket `aws s3api list-objects --bucket BUCKET_NAME`
 
 
 Reference: https://www.youtube.com/watch?v=6lRdUcbRZ0w&ab_channel=MohamadLawand 
